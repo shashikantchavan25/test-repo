@@ -6,11 +6,8 @@ provider "aws"{
 
 }
 
-resource "aws_instance" "myfirstserver" {
-ami       = "ami-0bd3f43f107376d6b"
-instance_type = "t2.micro"
-
-}
 
 resource "aws_s3_bucket" "storgae" {
 bucket = "shaanumai"
+
+}
